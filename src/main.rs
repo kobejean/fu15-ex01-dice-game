@@ -28,9 +28,9 @@ fn main() -> io::Result<()> {
     println!("Total value: {}", sum);
 
     if sum > 7 {
-        println!("You won!");
+        println!("{} won!", name);
     } else {
-        println!("You lost!");
+        println!("{} lost!", name);
     }
     
     Ok(())
