@@ -16,4 +16,12 @@ fn main() {
         sum += roll(&mut rng, n);
     }
     println!("Total value: {}", sum);
+
+    if sum > 7 {
+        println!("You won!");
+    } else {
+        println!("You lost!");
+    }
+
+    
 }
